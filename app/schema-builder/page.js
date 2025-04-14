@@ -1,4 +1,5 @@
-import { v4 as generateGuid } from "uuid";
+"use server";
+
 import SchemaBuilder from "./SchemaBuilder";
 
 const initialItem = {
@@ -8,9 +9,10 @@ const initialItem = {
   description: "the title of the invoice",
   extractInstructions: "",
   exampleValue: "",
-  id: generateGuid(),
+  id: "41991b87-cc71-493e-bec6-28cd369ac6be",
   position: 0,
   depth: 0,
+  parent: null,
   children: [],
 };
 

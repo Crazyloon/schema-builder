@@ -1,5 +1,9 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
-  return <div className="flex h-screen">Test</div>;
+  return (
+    <div className="flex h-screen">
+      <Link href="schema-builder">Schema Builder</Link>
+    </div>
+  );
 }

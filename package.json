@@ -13,7 +13,8 @@
     "@emotion/styled": "^11.14.0",
     "@mui/icons-material": "^6.4.6",
     "@mui/material": "^6.4.6",
-    "next": "15.2.0",
+    "@mui/x-tree-view": "^7.28.1",
+    "next": "15.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "uuid": "^11.1.0"
